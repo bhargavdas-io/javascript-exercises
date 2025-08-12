@@ -14,12 +14,17 @@ const sum = function (arr) {
   return sum;
 };
 
-const multiply = function (num5, num6) {
-  let product = parseInt(num5) * parseInt(num6);
+const multiply = function (arr) {
+  let product = 1;
+  for (let y = 0; y < arr.length; y++) {
+    product *= arr[y];
+  }
   return product;
 };
 
-const power = function () {};
+const power = function (num7, num8) {
+  return num7 ** num8;
+};
 
 const factorial = function () {};
 
